@@ -1,5 +1,6 @@
  
 import './App.css'
+import Course from './component/course'
 
 function App() {
  
@@ -7,7 +8,7 @@ function App() {
   return (
     <>
       
-      <h1>Create Course</h1>
+     <Course></Course>
      
       
     </>

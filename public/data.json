@@ -1,0 +1,75 @@
+[
+    {
+        "cover_img": "https://i.ibb.co/59MyYPM/Rectangle-2-2.png",
+        "title": "Introduction to Programming",
+        "description": "Learn the basics of programming with this comprehensive course.",
+        "price": "$99",
+        "reading_time": "3 hours",
+        "post_date": "2023-09-14"
+    },
+    {
+        "cover_img": "https://i.ibb.co/9cp2Cw7/Rectangle-2-3.png",
+        "title": "Digital Marketing Fundamentals",
+        "description": "Master the essentials of digital marketing strategies and tactics.",
+        "price": "$149",
+        "reading_time": "2 hours",
+        "post_date": "2023-09-15"
+    },
+    {
+        "cover_img": "https://i.ibb.co/whkS1zW/Rectangle-2-4.png",
+        "title": "Data Science Bootcamp",
+        "description": "Dive into the world of data science with hands-on projects.",
+        "price": "$199",
+        "reading_time": "4 hours",
+        "post_date": "2023-09-16"
+    },
+    {
+        "cover_img": "https://i.ibb.co/ZVm3bCk/Rectangle-3.png",
+        
+        "title": "Graphic Design for Beginners",
+        "description": "Create stunning visuals and graphics with this beginner-friendly course.",
+        "price": "$79",
+        "reading_time": "1.5 hours",
+        "post_date": "2023-09-17"
+    },
+    {
+        "cover_img": "https://i.ibb.co/kGWyBvX/Rectangle-2.png ",
+        "title": "Financial Planning and Investment",
+        "description": "Plan your finances and make smart investment decisions.",
+        "price": "$129",
+        "reading_time": "2.5 hours",
+        "post_date": "2023-09-18"
+    },
+    {
+        "cover_img": "https://i.ibb.co/2jvP3pB/Rectangle-2-5.png",
+        "title": "Photography Essentials",
+        "description": "Capture stunning photographs with your camera or smartphone.",
+        "price": "$69",
+        "reading_time": "1 hour",
+        "post_date": "2023-09-19"
+    },
+    {
+        "cover_img": "https://i.ibb.co/kGFLFbH/Rectangle-3-1.png",
+        "title": "Business Management Strategies",
+        "description": "Develop effective business management skills for success.",
+        "price": "$179",
+        "reading_time": "3.5 hours",
+        "post_date": "2023-09-20"
+    },
+    {
+        "cover_img": "https://i.ibb.co/6ZCTSWX/Rectangle-2-1.png",
+        "title": "Language Learning: Spanish 101",
+        "description": "Start your journey to becoming fluent in Spanish.",
+        "price": "$89",
+        "reading_time": "1.25 hours",
+        "post_date": "2023-09-21"
+    },
+    {
+        "cover_img": "https://i.ibb.co/dG5DpT3/Rectangle-2-6.png",
+        "title": "Art History and Appreciation",
+        "description": "Explore the world of art and its rich history.",
+        "price": "$119",
+        "reading_time": "1.75 hours",
+        "post_date": "2023-09-22"
+    }
+]
