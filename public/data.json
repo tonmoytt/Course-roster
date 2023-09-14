@@ -4,7 +4,7 @@
         "title": "Introduction to Programming",
         "description": "Learn the basics of programming with this comprehensive course.",
         "price": "$99",
-        "reading_time": "3 hours",
+        "reading_time": 3,
         "post_date": "2023-09-14"
     },
     {
@@ -12,7 +12,7 @@
         "title": "Digital Marketing Fundamentals",
         "description": "Master the essentials of digital marketing strategies and tactics.",
         "price": "$149",
-        "reading_time": "2 hours",
+        "reading_time": 2,
         "post_date": "2023-09-15"
     },
     {
@@ -20,7 +20,7 @@
         "title": "Data Science Bootcamp",
         "description": "Dive into the world of data science with hands-on projects.",
         "price": "$199",
-        "reading_time": "4 hours",
+        "reading_time": 4,
         "post_date": "2023-09-16"
     },
     {
@@ -29,7 +29,7 @@
         "title": "Graphic Design for Beginners",
         "description": "Create stunning visuals and graphics with this beginner-friendly course.",
         "price": "$79",
-        "reading_time": "1.5 hours",
+        "reading_time": 1.5,
         "post_date": "2023-09-17"
     },
     {
@@ -37,7 +37,7 @@
         "title": "Financial Planning and Investment",
         "description": "Plan your finances and make smart investment decisions.",
         "price": "$129",
-        "reading_time": "2.5 hours",
+        "reading_time": 2.5,
         "post_date": "2023-09-18"
     },
     {
@@ -45,7 +45,7 @@
         "title": "Photography Essentials",
         "description": "Capture stunning photographs with your camera or smartphone.",
         "price": "$69",
-        "reading_time": "1 hour",
+        "reading_time": 1,
         "post_date": "2023-09-19"
     },
     {
@@ -53,7 +53,7 @@
         "title": "Business Management Strategies",
         "description": "Develop effective business management skills for success.",
         "price": "$179",
-        "reading_time": "3.5 hours",
+        "reading_time": 3.5,
         "post_date": "2023-09-20"
     },
     {
@@ -61,7 +61,7 @@
         "title": "Language Learning: Spanish 101",
         "description": "Start your journey to becoming fluent in Spanish.",
         "price": "$89",
-        "reading_time": "1.25 hours",
+        "reading_time": 1.25,
         "post_date": "2023-09-21"
     },
     {
@@ -69,7 +69,7 @@
         "title": "Art History and Appreciation",
         "description": "Explore the world of art and its rich history.",
         "price": "$119",
-        "reading_time": "1.75 hours",
+        "reading_time": 1,
         "post_date": "2023-09-22"
     }
 ]
