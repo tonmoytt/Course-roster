@@ -1,27 +1,33 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Maincourse from "./course/Maincourse";
-import './css/course.css'
+import propTypes from 'prop-types'
 
-
-const Course = () => {
+const Course = ({handelerselecetd}) => {
     const [course, setcourse] = useState([]);
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
             .then(data => setcourse(data));
     }, [])
+
+    // const handelerselecetd=() selected=>{
+    //     console.log(selected);
+    // }
     return (
-        <div>
-            <h1 className='text-center text-4xl text-bold mt'>Course Registration</h1>
-            <div className="box">
+        <div className="w-3/4 mt-10 ">
+            
+            <div className="grid grid-cols-3">
 
             {
-               course.map(courseone => <Maincourse key={course.post_date} props={courseone}></Maincourse>) 
+               course.map(courseone => <Maincourse key={course.post_date} singleCourse={courseone} handelerselecetd={handelerselecetd}></Maincourse>) 
+               
              }
             </div>
         </div>
     );
 };
-
+Course.propTypes={
+    handelerselecetd:propTypes.func 
+}
 export default Course;

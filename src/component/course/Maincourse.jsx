@@ -1,25 +1,29 @@
-import {  FaBookOpen } from 'react-icons/fa';
-const Maincourse = ({props}) => {
-    const {cover_img,title,description,price,reading_time}=props;
+import { FaBookOpen } from 'react-icons/fa';
+import PropTypes from 'prop-types'
+
+const Maincourse = ({ singleCourse,handelerselecetd }) => {
+    const { cover_img, title, description, price, reading_time } = singleCourse;
     return (
-        <div className="mx-6 mt-4">
-            <img className="mt-4" src= {cover_img} alt="" />
-            <h2 className="text-3xl mt-4">{title}</h2>
+        <div className=" mx-4 bg-red-200 rounded-lg mt-4 p-2 ">
+            <img className="mt-4" src={cover_img} alt="" />
+            <h2 className="text-lg mt-4">{title}</h2>
             <p><small className="mt-4"> {description}</small></p>
             <div className='flex justify-between'>
-            <p className="text-lg mt-4">$ price :{price}</p>
-            <div >
-            <p className='mt-4'><FaBookOpen></FaBookOpen></p></div>
-            <div>
-            <small className="  text-lg mt-4">Credit : {reading_time}hr</small></div>
+                <p className="text-lg mt-4">$ price :{price}</p>
+                <div >
+                    <button className='mt-6'><FaBookOpen></FaBookOpen></button></div>
+                <div>
+                    < p className="  text-lg mt-4">Credit : {reading_time}hr</ p></div>
             </div>
-            
-               <button className=" bg-blue-500 px-28 mb-4 mt-4 rounded-lg py-2 text-lg">Select</button>
-             
-         
-            
+
+            <button onClick={ () => handelerselecetd(singleCourse)} className=" bg-blue-500 w-full mb-4 mt-4 rounded-lg py-2 text-lg">Select</button>
         </div>
     );
 };
+
+Maincourse.propTypes = {
+    singleCourse: PropTypes.object.isRequired,
+    handelerselecetd: PropTypes.func
+}
 
 export default Maincourse;
