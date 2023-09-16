@@ -10,7 +10,7 @@ const Bookmark = ({bookmark}) => {
            <h2 className="font-bold text-3xl p-2"> Course Name </h2>
        <hr /> 
        <div>
-        {bookmark?.map((course, index) =><ol> <li key={index}>{index + 1}{course.title}</li> </ol>)}
+        {bookmark?.map((course, index) => <ol key={index}>{index + 1}. {course.title}</ol>)}
        </div>
        </div>
     );

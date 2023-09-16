@@ -20,7 +20,7 @@ const Course = ({handelerselecetd}) => {
             <div className="grid lg:grid-cols-3">
 
             {
-               course.map(courseone => <Maincourse key={course.post_date} singleCourse={courseone} handelerselecetd={handelerselecetd}></Maincourse>) 
+               course.map(courseone => <Maincourse key={courseone.id} singleCourse={courseone} handelerselecetd={handelerselecetd}></Maincourse>) 
                
              }
             </div>
