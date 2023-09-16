@@ -9,18 +9,28 @@ function App() {
 
   const [bookmark, setbookmark] = useState([]);
 
+ 
   const handelerselecetd = selected => {
-    const bookmarkbtn = [...bookmark, selected];
-    setbookmark(bookmarkbtn);
-    toast('called');
+     const isExested= bookmark.find ((item) => item.id== Course.id);
+     if (isExested){
+     return toast('already added')
+     }
+     else{
+      const bookmarkbtn = [...bookmark, selected];
+      setbookmark(bookmarkbtn);
+     }
+    
+
+  
   }
+  
 
  
 
   return (
     <>
       <h1 className='text-center text-4xl text-bold'>Course Registration</h1>
-      <div className='flex   gap-4'>
+      <div className='grid lg:flex   gap-4'>
         <Course handelerselecetd={handelerselecetd}></Course>
         <div className='mt-12'>
           <div>

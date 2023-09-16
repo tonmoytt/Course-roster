@@ -17,7 +17,7 @@ const Course = ({handelerselecetd}) => {
     return (
         <div className="w-3/4 mt-10 ">
             
-            <div className="grid grid-cols-3">
+            <div className="grid lg:grid-cols-3">
 
             {
                course.map(courseone => <Maincourse key={course.post_date} singleCourse={courseone} handelerselecetd={handelerselecetd}></Maincourse>) 

@@ -6,7 +6,7 @@ const Hours = ({handelerselecetd}) => {
     
     return (
         <div>
-            <h2 className="text-2xl">Total credit Hours : 0</h2>
+            <h2 className="text-2xl">Total credit Hours : {handelerselecetd}0</h2>
         </div>
     );
 };
